@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 #define STYLE1 char
 int main()
 {

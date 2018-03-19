@@ -1,7 +1,7 @@
-#include<stdio.h>
+ #include<stdio.h>
 #include<string.h>
 
-void *reverse (char * str)
+void reverse (char * str)
 {
 int i,len;
 len= strlen (str);
@@ -11,7 +11,7 @@ printf("%c",*(str+i));
 
 int main()
 {
-char a[]="Geeks for Geeks";
+char a[]="Geeks for program";
 reverse(a);
 printf("\n");
 return 0;

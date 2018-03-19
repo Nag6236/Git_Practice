@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 #define my_size(x) (((char*)(&x+1))-((char*)(&x)))
 int main()
 {
